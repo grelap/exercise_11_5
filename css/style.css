@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://static.pexels.com/photos/167699/pexels-photo-167699.jpeg');
+  background-size: cover;
+  background-position: 0;
+  color: white;
+  font-family: 'Asar', serif;
+}
+
+.box{
+  margin: 0 auto;
+  background-color: rgba(255,255,255, 0.3);
+  width: 60%;
+}
+
+.container {
+   margin: 0 auto;
+   height: 80vh;
+   text-align: center;
+}
+
+h1{
+  margin: 90px 0 50px 0;
+  font-size: 3rem;
+}
+
+h2 {
+  width: 70%;
+  margin: 20px;
+  font-size: 2rem;
+  min-height: 21vh;
+  padding: 90px;
+  margin: 0 auto;
+  color: black;
+}
+
+h3 {
+  border-top: 1px dashed #FF5733;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #20425E;
+}
+
+cite {
+  display:inline-block;
+  line-height: 1.5em;
+  width: 80%;
+  margin: 20px;
+  font-size: 2.5rem;
+  min-height: 18vh;
+  padding: 50px;
+  margin: 0 auto;
+  color: #20425E;
+}
+
+cite:after {
+   content: '”';
+   color: #FF5733;
+}
+
+cite:before {
+   content: '„';
+   color: #FF5733;
+}
+
+i.fa {
+  color: #FF5733;
+  font-size: 3rem;
+}
+
+div > a {
+  display: inline-block;
+  width: 300px;
+  font-size: 1rem;
+  padding: 10px 14px 16px 14px;
+  margin: 80px 10px 80px 5px;
+  background-color: #20425E;
+  color:#FF5733;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+div > a:hover {
+  background-color: white;  
+}
+
+button {
+  width: 300px;
+  height: 63px;
+  font-size: 1rem;
+  padding: 20px;
+  margin: 50px 10px;
+  background-color: #FF5733;
+  color:white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #FF5733;
+  border: none;
+  cursor: pointer;
+}
